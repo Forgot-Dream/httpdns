@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "httpdns",
+  "version": "${version}",
+  "name": "Httpdns",
+  "description": "",
+  "authors": [
+    "Forgot_Dream"
+  ],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/httpdns/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [],
+    "main": []
+  },
+  "mixins": [
+    "httpdns.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "minecraft": "1.16.5"
+  }
+}
