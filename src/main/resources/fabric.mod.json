@@ -9,7 +9,6 @@
   ],
   "contact": {},
   "license": "LGPL-3.0",
-  "icon": "assets/httpdns/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [],

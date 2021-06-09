@@ -22,9 +22,7 @@ public class HttpParser {
         try {
             httpClient = HttpClients.createDefault();
             HttpGet httpGet = new HttpGet("http://119.29.29.29/d?dn=" + address);
-            System.out.println(httpGet.toString());
             response = httpClient.execute(httpGet);
-            System.out.println(response.toString());
             HttpEntity entity = response.getEntity();
             result = EntityUtils.toString(entity).split(";")[0];
         } catch (ClientProtocolException e) {
